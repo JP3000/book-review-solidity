@@ -24,8 +24,8 @@ export default function ReviewList({ reviews, onDelete, onVote, currentAccount }
             )}
             {!r.isDeleted && r.owner !== currentAccount && (
               <>
-                <button className="db-btn" style={{marginRight:4}} onClick={() => onVote(r.id, true)}>点赞</button>
-                <button className="db-btn" style={{background:'#fff',color:'#888',border:'1px solid #ddd'}} onClick={() => onVote(r.id, false)}>点踩</button>
+                <button className="db-btn" style={{marginRight:4}} onClick={() => { console.log('click upvote', r.id); onVote(r.id, true) }}>点赞</button>
+                <button className="db-btn" style={{background:'#fff',color:'#888',border:'1px solid #ddd'}} onClick={() => { console.log('click downvote', r.id); onVote(r.id, false) }}>点踩</button>
               </>
             )}
           </div>
