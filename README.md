@@ -5,9 +5,6 @@ A beginner-friendly decentralized book review application built for the Sepolia 
 
 ## Features
 
-
-## Features
-
 - ✅ Add a book review to the blockchain (testnet)
 - ✅ Query all reviews for a specific book
 - ✅ Delete your own book reviews
