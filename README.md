@@ -1,5 +1,5 @@
 # Haoping Book Review App
-![DApp Preview](./public/screenShot.jpg)
+![DApp Preview](./public/bookReview.jpg)
 
 A beginner-friendly decentralized book review application built for the Sepolia testnet. Perfect introduction to Web3 development with full blockchain integration.
 
